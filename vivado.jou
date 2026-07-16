@@ -1,0 +1,52 @@
+#-----------------------------------------------------------
+# Vivado v2025.1.1 (64-bit)
+# SW Build 6233196 on Thu Sep 11 21:27:30 MDT 2025
+# IP Build 6232796 on Fri Sep 12 01:46:16 MDT 2025
+# SharedData Build 6233195 on Thu Sep 11 17:56:43 MDT 2025
+# Start of session at: Fri Nov  7 15:29:13 2025
+# Process ID         : 10284
+# Current directory  : C:/Users/cmworkma/Downloads/GCD.xpr/GCD
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent25120 C:\Users\cmworkma\Downloads\GCD.xpr\GCD\GCD.xpr
+# Log file           : C:/Users/cmworkma/Downloads/GCD.xpr/GCD/vivado.log
+# Journal file       : C:/Users/cmworkma/Downloads/GCD.xpr/GCD\vivado.jou
+# Running On         : eecs-j243w09
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26100
+# Processor Detail   : 11th Gen Intel(R) Core(TM) i9-11900 @ 2.50GHz
+# CPU Frequency      : 2496 MHz
+# CPU Physical cores : 8
+# CPU Logical cores  : 16
+# Host memory        : 16891 MB
+# Swap memory        : 6714 MB
+# Total Virtual      : 23606 MB
+# Available Virtual  : 3582 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/cmworkma/Downloads/GCD.xpr/GCD/GCD.xpr
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top DoubleDabbleTop [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top GCD_top [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top GCD_TB [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+archive_project C:/Users/cmworkma/Downloads/GCD.xpr/GCD_quick_start.xpr.zip -temp_dir C:/Users/cmworkma/Downloads/GCD.xpr/GCD/.Xil/Vivado-10284-eecs-j243w09 -force -include_local_ip_cache

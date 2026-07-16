@@ -1,0 +1,16 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2025.1.1 (win64) Build 6233196 Thu Sep 11 21:27:30 MDT 2025
+| Date         : Fri Nov  7 15:33:22 2025
+| Host         : eecs-j243w09 running 64-bit major release  (build 9200)
+| Command      : report_bus_skew -warn_on_violation -file DoubleDabbleTop_bus_skew_routed.rpt -pb DoubleDabbleTop_bus_skew_routed.pb -rpx DoubleDabbleTop_bus_skew_routed.rpx
+| Design       : DoubleDabbleTop
+| Device       : 7s50-csga324
+| Speed File   : -1  PRODUCTION 1.23 2018-06-13
+| Design State : Routed
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Bus Skew Report
+
+No bus skew constraints
+
